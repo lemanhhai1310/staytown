@@ -1,0 +1,152 @@
+.box_filters{
+  border: 1px solid #999999;
+  box-sizing: border-box;
+  .title{
+    font-size: 12px;
+    color: #4f4f4f;
+    margin-bottom: 10px;
+  }
+}
+.mt1{
+  overflow: hidden;
+  @media(max-width: 560px){
+    flex: 1 !important;
+  }
+  &:nth-child(n+2){
+    @media(min-width: 560px){
+      padding-left: 10px !important;
+    }
+    padding-left: 5px !important;
+  }
+}
+.mt2{
+  @media(max-width: 560px){
+    width: 100% !important;
+  }
+}
+
+#slider-range{
+  height: 2px;
+  background-color: #999999;
+  .ui-slider-range{
+    background-color: #4f4f4f;
+  }
+  .ui-slider-handle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #4f4f4f;
+    border-color: #4f4f4f;
+    top: -5px;
+    @media(max-width: 560px){
+      width: 14px;
+      height: 14px;
+      top: -7px;
+    }
+  }
+}
+#amount{
+  color: #999999 !important;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'SVN-Futura Regular' !important;
+}
+.box_2{
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.tag1{
+  line-height: 18px !important;
+  font-size: 12px;
+  padding: 0 10px;
+  margin-bottom: 4px;
+}
+.btn5{
+  font-size: 12px;
+  text-align: left;
+}
+.btn6{
+  background-color: #fff !important;
+  @media(max-width: 560px){
+    padding: 0 10px;
+    .uk-icon{
+      position: absolute;
+      top: 10px;
+      right: 0px;
+    }
+  }
+  position: relative;
+  text-align: left;
+}
+#thumb1{
+  li{
+    &:not(.uk-transition-active){
+      img{
+        opacity: .5;
+      }
+    }
+  }
+}
+.btn-play{
+  .uk-icon{
+    color: #c4c4c4;
+    svg{
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+.uk-lightbox{
+  z-index: 10000;
+  background: rgba(0, 0, 0, 0.87);
+}
+.box_5{
+  .title{
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  .price{
+    color: #1B1B1B;
+    margin-top: 0;
+  }
+  .desc{
+    color: #999999;
+  }
+}
+.box_6{
+  .ui-widget-content{
+    border-radius: 0 !important;
+    width: 100%;
+  }
+  .ui-spinner-input{
+    margin: 0;
+    padding: 0 10px;
+  }
+}
+#addcart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #1B1B1B;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  img{
+    margin-right: 10px;
+  }
+}
+#store{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 48px;
+  img{
+    margin-right: 10px;
+  }
+}
+.box_7{
+  a{
+    color: #1B1B1B;
+  }
+}

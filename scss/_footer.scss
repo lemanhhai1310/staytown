@@ -1,0 +1,92 @@
+#footer{
+  .top{
+    background-color: #1B1B1B;
+    @media(min-width: 960px){
+      padding-top: 73px;
+      padding-bottom: 43px;
+    }
+    .uk-logo_f{
+      img{
+        @media(max-width: 560px){
+          width: 206px;
+        }
+      }
+      figcaption{
+        margin-top: 23px;
+      }
+    }
+  }
+  .bottom{
+    background-color: #101010;
+    padding: 16px 0;
+    color: #999999;
+  }
+}
+.site_map{
+  >*{
+    >*{
+      font-size: 12px;
+    }
+  }
+}
+.title_f{
+  font-family: 'SVN-Futura Regular';
+  font-size: 12px;
+  color: #999999;
+}
+.list1_f{
+  li{
+    &:nth-child(n+2){
+      margin-top: 20px;
+    }
+    a{
+      color: #ffffff;
+
+    }
+  }
+}
+.accordion_f{
+  >li{
+    padding-left: 10px;
+    &:nth-child(n+2){
+      border-top: 1px solid #999999 !important;
+      padding-top: 15px;
+      margin-top: 15px;
+    }
+    .title_f{
+      line-height: 28px;
+    }
+  }
+  .uk-accordion-content{
+
+  }
+}
+.block1{
+  background-color: #f2f2f2;
+}
+.box1{
+  .title{
+    font-size: 24px;
+    color: #4f4f4f;
+    margin: 0;
+  }
+  p{
+    margin: 0;
+  }
+}
+.btn1{
+  font-size: 12px !important;
+}
+.txt1{
+  border-color: #bebebe;
+}
+.list_social{
+  li{
+    a{
+      color: #4f4f4f;
+      i.fa{
+        font-size: 24px;
+      }
+    }
+  }
+}

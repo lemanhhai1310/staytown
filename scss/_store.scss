@@ -1,0 +1,35 @@
+.card6{
+  .uk-card-header{
+    font-size: 18px;
+    font-family: 'SVN-Futura Regular' !important;
+  }
+  .uk-card-body{
+    .uk-card-title{
+      font-size: 12px;
+      color: #1B1B1B;
+    }
+    .uk-padding{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      background-color: #f5f5f5;
+      &:hover{
+        background-color: #fff;
+      }
+    }
+    .uk-list{
+      color: #999999;
+      li{
+        display: flex;
+        align-items: center;
+        .uk-icon{
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+.uk-active{
+  .uk-padding{
+    background-color: #fff !important;
+  }
+}

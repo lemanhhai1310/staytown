@@ -1,0 +1,19 @@
+.box4{
+  @media(min-width: 960px){
+    flex-direction: row !important;
+  }
+  .txt{
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 42px;
+    @media(min-width: 960px){
+      margin-right: 25px;
+      font-size: 12px;
+    }
+  }
+}
+.map_contact{
+  @media(max-width: 960px){
+    height: 287px !important;
+  }
+}

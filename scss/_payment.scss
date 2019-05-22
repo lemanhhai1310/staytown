@@ -1,0 +1,115 @@
+select{
+  &:disabled + .uk-button-default{
+    background-color: #f8f8f8;
+    color: #999999;
+  }
+  .uk-button-default{
+    font-size: 12px !important;
+    font-family: 'SVN-Futura Regular' !important;
+  }
+}
+.payment_tab{
+  position: relative;
+  @media(max-width: 560px){
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+  }
+  li{
+    a{
+      color: #ffffff !important;
+      height: 100%;
+      font-size: 12px !important;
+      @media(min-width: 960px){
+        padding: 15px 20px !important;
+        height: inherit;
+      }
+      background-color: #999999 !important;
+
+      display: flex !important;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &.uk-active{
+      a{
+        background-color: #1B1B1B !important;
+        &:after{
+          content: "\f192";
+          font: normal normal normal 14px/1 FontAwesome;
+        }
+      }
+    }
+  }
+}
+.c11{
+  >div{
+    &:not(.uk-first-column){
+      &:before{
+        left: 0 !important;
+      }
+    }
+  }
+}
+.pay1{
+  cursor: pointer;
+  padding: 21px 15px;
+  padding-left: calc((60px - 16px)/2);
+  &:hover{
+    span{
+      background-color: #4f4f4f;
+      color: #ffffff;
+      padding-left: 90px;
+    }
+  }
+  input{
+    position: relative;
+    z-index: 100;
+    &:checked + span{
+      background-color: #4f4f4f;
+      color: #ffffff;
+      padding-left: 90px;
+    }
+  }
+  span{
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    transition: all .3s;
+  }
+}
+.width1{
+  width: 60px !important;
+}
+.box_checkout{
+  .box_header{
+    background-color: #1B1B1B !important;
+  }
+}
+.box_1{
+  background-color: #1B1B1B !important;
+  padding: 40px;
+}
+.card8{
+  .uk-card-body{
+    @media(min-width: 560px){
+      padding-top: 0 !important;
+      padding-right: 0 !important;
+      padding-bottom: 0 !important;
+    }
+  }
+}
+.uk-grid-divider{
+  &.pay2{
+    >div{
+      &:not(.uk-first-column){
+        &:before{
+          content: 'OR' !important;
+          border: none;
+          font-size: 22px;
+          top: -35px;
+          left: 0;
+          color: #1B1B1B;
+        }
+      }
+    }
+  }
+}
