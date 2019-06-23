@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/uikit-3.0.3/css/uikit.min.css">
     <link rel="stylesheet" href="assets/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/fancybox-master/dist/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/layout.css">
     <!--JS-->
@@ -15,6 +16,7 @@
     <script src="assets/jquery-ui-1.12.1/jquery-ui.min.js"></script>
     <script src="assets/uikit-3.0.3/js/uikit.min.js"></script>
     <script src="assets/uikit-3.0.3/js/uikit-icons.min.js"></script>
+    <script src="assets/fancybox-master/dist/jquery.fancybox.min.js"></script>
     <script src="js/main.js"></script>
     <script>
         $( function() {

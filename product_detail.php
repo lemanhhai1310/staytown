@@ -8,17 +8,26 @@
                     <div>
                         <div class="uk-position-relative" uk-slideshow="animation: pull; ratio: 472:571">
 
-                            <div class="uk-position-relative" uk-lightbox>
+                            <div class="uk-position-relative">
                                 <ul class="uk-slideshow-items uk-margin">
                                     <?php for ($i=0; $i<=6; $i++) { ?>
                                         <li>
                                             <img class="uk-width-1-1" src="imgs/img<?php echo $i + 1; ?>.png" alt="" uk-cover>
-                                            <a href="imgs/img<?php echo $i + 1; ?>.png" class="uk-position-bottom-right" style="right: 15px; bottom: 15px"><img src="imgs/btn-zoom.png" alt=""></a>
+                                            <a class="uk-position-cover" data-fancybox="images" href="imgs/img<?php echo $i + 1; ?>.png"><img class="uk-width-1-1" src="imgs/img<?php echo $i + 1; ?>.png" alt="" uk-cover></a>
                                         </li>
                                     <?php } ?>
                                 </ul>
                                 <a href="https://www.youtube.com/watch?v=YE7VzlLtp-4" style="left: 15px; bottom: 15px" class="uk-position-bottom-left btn-play"><img src="imgs/btn-play.png" alt=""></a>
                             </div>
+                            <script>
+                                $('[data-fancybox="images"]').fancybox({
+                                    margin : [44,0,22,0],
+                                    thumbs : {
+                                        autoStart : true,
+                                        axis      : 'y'
+                                    }
+                                })
+                            </script>
                             <div class="uk-padding uk-padding-remove-top">
                                 <div uk-slider="finite: false; center: true">
 
